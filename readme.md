@@ -37,7 +37,7 @@ This project is perfect for learning:
 | **Backend**      | NestJS + Socket.IO |
 | **Database**     | MongoDB |
 | **Real-Time**    | WebSocket via Socket.IO |
-| **Styling**      | Tailwind CSS (or any other you used) |
+| **Styling**      | Tailwind CSS |
 
 ---
 
@@ -69,12 +69,11 @@ This project is perfect for learning:
 ```bash
 git clone git@github.com:dappsmartdev/todokeep.git
 cd todo-keep-realtime
+```
 
-
+### run this commands for nestjs project please
 
 ```bash
-
-
 # Tasks Module
 nest generate module tasks
 nest generate controller tasks
@@ -102,5 +101,27 @@ touch src/tasks/task.schema.ts
 touch src/boards/board.schema.ts
 touch src/socket-io.adapter.ts
 mkdir -p src/utils && touch src/utils/connectDB.ts
+
+```
+### 🛠️ Folder Structure
+
+
+```bash
+
+todokeep/
+├── todokeep-api/         # NestJS server with Socket.IO
+│   ├── src/
+│   │   ├── main.ts
+│   │   ├── socket/
+│   │   ├── boards/
+│   │   ├── tasks/
+│   │   └── utils/
+│   └── ...
+├── todokeep-nextjs/        # Next.js App
+│   ├── pages/
+│   ├── components/
+│   ├── public/
+│   └── ...
+└── README.md
 
 ```
