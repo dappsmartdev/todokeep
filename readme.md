@@ -4,6 +4,7 @@
 > A real-time task management application built with **NestJS**, **Socket.IO**, **Next.js**, and **MongoDB**. Collaborate and manage tasks across boards in real time – create, update, delete, and mark tasks as complete — all without refreshing!
 
 ---
+![todo thumbnail](thumbnail.png)
 
 ## 🎥 Watch on YouTube
 
